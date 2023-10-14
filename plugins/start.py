@@ -128,8 +128,8 @@ async def send_doc(client, message):
                                   reply_markup=InlineKeyboardMarkup([
                                                                      [InlineKeyboardButton("🦋 Contact Developer 🦋", url='https://t.me/Ak74400')],
                                                                      [InlineKeyboardButton("🔺 Movies Group 🔺", url='https://t.me/IPopkornMovies72')],
-                                                                     [InlineKeyboardButton("🦋 Visit Channel  ", url='https://t.me/ak_backup_72'),
-                                                                     InlineKeyboardButton("  Support Group 🦋", url='https://t.me/ak_bot_support')],
+                                                                     [InlineKeyboardButton("🦋 Visit Channel 🦋", url='https://t.me/ak_backup_72'),
+                                                                     InlineKeyboardButton("🦋 Support Group 🦋", url='https://t.me/ak_bot_support')],
                                                                      [InlineKeyboardButton("☕ Buy Me A Tea ☕", url='https://p.paytm.me/xCTH/8oo3nubh')]
                                                                     ]))
         await message.reply_text(text=f"🦋")
