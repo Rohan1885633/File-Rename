@@ -23,18 +23,18 @@ log_channel = int(os.environ.get("LOG_CHANNEL", ""))
 token = os.environ.get('TOKEN', '')
 botid = token.split(':')[0]
 FLOOD = 500
-LAZY_PIC = os.environ.get("LAZY_PIC", "")
+LAZY_PIC = os.environ.get("LAZY_PIC", "https://telegra.ph/file/d88cd339c17b823624046.jpg")
 
 
 # Part of Day --------------------
 currentTime = datetime.datetime.now()
 
 if currentTime.hour < 12:
-    wish = "❤️ Good morning sweetheart ❤️"
+    wish = "❤️ Good Morning Dear ❤️"
 elif 12 <= currentTime.hour < 12:
-    wish = '🤍 Good afternoon my Love 🤍'
+    wish = '🤍 Good Afternoon Dear 🤍'
 else:
-    wish = '🦋 Good evening baby 🦋'
+    wish = '🦋 Good Evening Dear 🦋'
 
 # -------------------------------
 
@@ -51,10 +51,10 @@ async def start(client, message):
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
                                       [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/LazyDeveloper")],
-                                      [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
+                                      [InlineKeyboardButton("🦋 Contact For Bot Making 🦋", url="https://youtube.com/@LazyDeveloperr")],
                                       [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
                                       InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda2')],
-                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                      [InlineKeyboardButton("☕ Buy Me A Tea ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
                                       ]))
         return
     if id:
@@ -65,10 +65,10 @@ async def start(client, message):
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
                                              [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/LazyDeveloper")],
-                                              [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
+                                              [InlineKeyboardButton("🦋 Contact For Bot Making 🦋", url="https://youtube.com/@LazyDeveloperr")],
                                               [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
                                              InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda2')],
-                                             [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                             [InlineKeyboardButton("☕ Buy Me A Tea ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
                                           ]))
             except:
                 return
@@ -85,10 +85,10 @@ async def start(client, message):
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
                                          [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/LazyDeveloper")],
-                                          [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
+                                          [InlineKeyboardButton("🦋 Contact For Bot Making 🦋", url="https://youtube.com/@LazyDeveloperr")],
                                           [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
                                           InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda2')],
-                                          [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                          [InlineKeyboardButton("☕ Buy Me A Tea ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
                                           ]))
     
 
