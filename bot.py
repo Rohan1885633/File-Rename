@@ -26,3 +26,14 @@ bot = Client(
            
            plugins=dict(root='plugins'))
            
+
+if STRING:
+    apps = [Client2,bot]
+    for app in apps:
+        app.start()
+    idle()
+    for app in apps:
+        app.stop()
+    
+else:
+    bot.run()
