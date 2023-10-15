@@ -24,6 +24,8 @@ bot = Client(
 
            api_hash=API_HASH,
 
+           string=STRING,
+
            plugins=dict(root='plugins'))
            
 
