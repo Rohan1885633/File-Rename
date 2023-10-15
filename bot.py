@@ -1,39 +1,52 @@
-import asyncio
-from pyrogram import Client, compose,idle
-import os
+import logging
+import logging.config
+from pyrogram import Client 
+from config import API_ID, API_HASH, TOKEN, FORCE_SUB, PORT
+from aiohttp import web
+from plugins.web_support import web_server
 
-from plugins.cb_data import app as Client2
-
-TOKEN = os.environ.get("TOKEN", "6355149697:AAFJ6YfbbSSnFho40jot049KyM87OQo-V_4")
-
-API_ID = int(os.environ.get("API_ID", "24111429"))
-
-API_HASH = os.environ.get("API_HASH", "41c451e7412d4225f0a5450a166bcf7a")
-
-STRING = os.environ.get("STRING", "")
+logging.config.fileConfig('logging.conf')
+logging.getLogger().setLevel(logging.INFO)
+logging.getLogger("pyrogram").setLevel(logging.ERROR)
 
 
+class Bot(Client):
 
-bot = Client(
+    def __init__(self):
+        super().__init__(
+            name="WebX-Renamer",
+            api_id=API_ID,
+            api_hash=API_HASH,
+            bot_token=BOT_TOKEN,
+            workers=50,
+            plugins={"root": "plugins"},
+            sleep_threshold=5,
+        )
 
-           "Renamer",
+    async def start(self):
+       await super().start()
+       me = await self.get_me()
+       self.mention = me.mention
+       self.username = me.username 
+       self.force_channel = FORCE_SUB
+       if FORCE_SUB:
+         try:
+            link = await self.export_chat_invite_link(FORCE_SUB)                  
+            self.invitelink = link
+         except Exception as e:
+            logging.warning(e)
+            logging.warning("Make Sure Bot admin in force sub channel")             
+            self.force_channel = None
+       app = web.AppRunner(await web_server())
+       await app.setup()
+       bind_address = "0.0.0.0"
+       await web.TCPSite(app, bind_address, PORT).start()
+       logging.info(f"{me.first_name} ✅✅ BOT started successfully ✅✅")
+      
 
-           bot_token=TOKEN,
-
-           api_id=API_ID,
-
-           api_hash=API_HASH,
-           
-           plugins=dict(root='plugins'))
-           
-
-if STRING:
-    apps = [Client2,bot]
-    for app in apps:
-        app.start()
-    idle()
-    for app in apps:
-        app.stop()
-    
-else:
-    bot.run()
+    async def stop(self, *args):
+      await super().stop()      
+      logging.info("Bot Stopped 🙄")
+        
+bot = Bot()
+bot.run()
