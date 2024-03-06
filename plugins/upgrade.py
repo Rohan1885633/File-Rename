@@ -27,8 +27,8 @@ async def upgrade(bot,update):
         Payment To Admin @Ak74400"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/Ak74400")], 
-        			[InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/8oo3nubh"),
-        			InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/8oo3nubh")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			[InlineKeyboardButton("Paytm",url = "https://pay.upilink.in/pay/9653435576@paytm"),
+        			InlineKeyboardButton("Paytm",url = "https://pay.upilink.in/pay/9653435576@paytm")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
@@ -57,6 +57,6 @@ async def upgradecm(bot,message):
         Payment To Admin @Ak74400"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/Ak74400")], 
-        			[InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/8oo3nubh"),
-        			InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/8oo3nubh")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			[InlineKeyboardButton("Paytm",url = "https://pay.upilink.in/pay/9653435576@paytm"),
+        			InlineKeyboardButton("Paytm",url = "https://pay.upilink.in/pay/9653435576@paytm")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
