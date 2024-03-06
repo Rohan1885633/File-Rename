@@ -54,7 +54,7 @@ async def start(client, message):
                                       [InlineKeyboardButton("🦋 Contact Me 🦋", url="https://t.me/Ak74400")],
                                       [InlineKeyboardButton("Support Group", url='https://t.me/ak_bot_support'),
                                       InlineKeyboardButton("Movie Channel", url='https://t.me/IPopkornMovies72')],
-                                      [InlineKeyboardButton("☕ Buy Me A Tea ☕", url='https://p.paytm.me/xCTH/8oo3nubh')]
+                                      [InlineKeyboardButton("☕ Buy Me A Tea ☕", url='https://pay.upilink.in/pay/9653435576@paytm')]
                                       ]))
         return
     if id:
@@ -68,7 +68,7 @@ async def start(client, message):
                                               [InlineKeyboardButton("🦋 Contact Me 🦋", url="https://t.me/Ak74400")],
                                               [InlineKeyboardButton("Support Group", url='https://t.me/ak_bot_support'),
                                              InlineKeyboardButton("Movie Channel", url='https://t.me/IPopkornMovies72')],
-                                             [InlineKeyboardButton("☕ Buy Me A Tea ☕", url='https://p.paytm.me/xCTH/8oo3nubh')]
+                                             [InlineKeyboardButton("☕ Buy Me A Tea ☕", url='https://pay.upilink.in/pay/9653435576@paytm')]
                                           ]))
             except:
                 return
@@ -88,7 +88,7 @@ async def start(client, message):
                                           [InlineKeyboardButton("🦋 Contact Me 🦋", url="https://t.me/Ak74400")],
                                           [InlineKeyboardButton("Support Group", url='https://t.me/ak_bot_support'),
                                           InlineKeyboardButton("Movie Channel", url='https://t.me/IPopkornMovies72')],
-                                          [InlineKeyboardButton("☕ Buy Me A Tea ☕", url='https://p.paytm.me/xCTH/8oo3nubh')]
+                                          [InlineKeyboardButton("☕ Buy Me A Tea ☕", url='https://pay.upilink.in/pay/9653435576@paytm')]
                                           ]))
     
 
@@ -130,7 +130,7 @@ async def send_doc(client, message):
                                                                      [InlineKeyboardButton("🔺 Movies Group 🔺", url='https://t.me/IPopkornMovies72')],
                                                                      [InlineKeyboardButton("🦋 Visit Channel 🦋", url='https://t.me/ak_backup_72'),
                                                                      InlineKeyboardButton("🦋 Support Group 🦋", url='https://t.me/ak_bot_support')],
-                                                                     [InlineKeyboardButton("☕ Buy Me A Tea ☕", url='https://p.paytm.me/xCTH/8oo3nubh')]
+                                                                     [InlineKeyboardButton("☕ Buy Me A Tea ☕", url='https://pay.upilink.in/pay/9653435576@paytm')]
                                                                     ]))
         await message.reply_text(text=f"🦋")
         return 
