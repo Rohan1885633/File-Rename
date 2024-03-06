@@ -1,7 +1,7 @@
-<img src="https://telegra.ph/file/9936c273582628afb098c.png" alt="logo" target="/blank">
+<img src="https://ibb.co/KFfSLf3" alt="logo" target="/blank">
 
 <h1 align="center">
- <b><a href="https://telegram.me/LazyDeveloper" target="/blank"> Gangster Baby ( PREMIUM Renamer ) </a></>
+ <b><a href="https://telegram.me/Ak74400" target="/blank"> ( PREMIUM Renamer ) </a></>
 </h1>
 
 <p align="center">🤍 Thanks for Being Here 🤍</p>
@@ -43,7 +43,7 @@
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/LazyDeveloperr/Gangster-Baby-Renamer-V2">
+<a href="https://heroku.com/deploy?template=https://github.com">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
