@@ -15,8 +15,8 @@ from helper.database import daily as daily_
 from helper.date import check_expi
 import os
 
-CHANNEL = os.environ.get('CHANNEL', "")
-STRING = os.environ.get("STRING", "BQFv6UUAxagBgU6YTfjqLDNTaNS1aN0dqfGop1Q_mVb0VT3JyXn82GZkxLodD6uMwAgp7lQHV23a9huWjOaHlzDBEFt811w-zuE6Iwi1JwTA59mgeQ30byOuCiancGmE0n0bjv6HPwsi526toliL6ynM1lwNiBIeU-SbMfrbssuGEVjGh9gLsiN1JE6ZKES-h88ow7VVAhyttm2dBC-rhDTCrBgGW1v3okXC0Xq9ytRQFRHzkKxVq-TtC4eTA_RlsVe9BOONN_LE4F_R4BZ4A5wnTCnUnbgsTIvjWfyrP3Rl5d6loqtdxWlVDlGKSoePbUcT0m6e1V2Ju6ItW2VJDtf8WzISnAAAAAFpXGZ7AA")
+CHANNEL = os.environ.get('CHANNEL', "ak_backup_72")
+STRING = os.environ.get("STRING", "")
 ADMIN = int(os.environ.get("ADMIN", "6062630523"))
 bot_username = os.environ.get("BOT_USERNAME","Rename_X_Thumbnail_Robot")
 log_channel = int(os.environ.get("LOG_CHANNEL", "-1001848374407"))
