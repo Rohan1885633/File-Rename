@@ -4,13 +4,13 @@ import os
 
 from plugins.cb_data import app as Client2
 
-TOKEN = os.environ.get("TOKEN", "6355149697:AAFJ6YfbbSSnFho40jot049KyM87OQo-V_4")
+TOKEN = os.environ.get("TOKEN", "6736577527:AAFOV3FnWhdMAKPC5DmJ3iEG9Ffm99uYzvo")
 
-API_ID = int(os.environ.get("API_ID", "24111429"))
+API_ID = int(os.environ.get("API_ID", "21593885"))
 
-API_HASH = os.environ.get("API_HASH", "41c451e7412d4225f0a5450a166bcf7a")
+API_HASH = os.environ.get("API_HASH", "66c868b925a30a3deb21c300a69d1425")
 
-STRING = os.environ.get("STRING", "")
+STRING = os.environ.get("STRING", "BQFJfx0AdbB-zrKmh8DmfYoY88e9giXyavSHYecaBvi_xKxp-kOIUEqaY9q07l7t6yINDKHBkM3QBK3BgOe_RKCCAJsBbmTd4SHHU65y4nWXKRBJMquAFmBdhbLHfNox9mhOpbWfRETRTyriAiYCxpyC6LnanAl-MYFGzcmxRR2_9vNL0i4sVZmSVK1hEQzyIwO4qolLadvF0Rx9qXJ-dYngOlyYzphnGQT4b-EnaWTQ3m2mfdQCQ4kf4c-kyjCv24CnP5JKkGz9f64Q7kwhnBbjl5QNNsqxew_MvpstYS-t4M24qXHfdImrqI815oEMdv_6htTlt1zpggbc4Ad81uVLA4_ezQAAAABNuQNpAA")
 
 
 
