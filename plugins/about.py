@@ -12,4 +12,4 @@ async def start(client,message):
 	data = find_one(int(botid))
 	total_rename = data["total_rename"]
 	total_size = data["total_size"]
-	await message.reply_text(f"Origional BOT :- <a href='https://t.me/Rename_X_Thumbnail_Robot'>Royal Bot</a>\nCreater :- <a href='https://t.me/Ak74400'>👑Royal Empire👑</a>\nLanguage :- Python3\nLibrary :- Pyrogram 2.0\nServer :- KOYEB\nTotal Renamed File :- {total_rename}\nTotal Size Renamed :- {humanbytes(int(total_size))} \n\n Thank you **<a href='https://t.me/Ak74400'>BotDeveloper</a>** for your hard work \n\n❤️ we love you <a href='https://t.me/Ak74400'>**BotDeveloper**</a> ❤️",quote=True)
+	await message.reply_text(f"Origional BOT :- <a href='https://t.me/RJ_Rename_Bot'>Royal Bot</a>\nCreater :- <a href='https://t.me/ROHANKUMAR188'>👑Royal Empire👑</a>\nLanguage :- Python3\nLibrary :- Pyrogram 2.0\nServer :- KOYEB\nTotal Renamed File :- {total_rename}\nTotal Size Renamed :- {humanbytes(int(total_size))} \n\n Thank you **<a href='https://t.me/ROHANKUMAR188'>BotDeveloper</a>** for your hard work \n\n❤️ we love you <a href='https://t.me/ROHANKUMAR188'>**BotDeveloper**</a> ❤️",quote=True)
