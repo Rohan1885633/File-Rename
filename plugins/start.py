@@ -15,12 +15,12 @@ from helper.database import daily as daily_
 from helper.date import check_expi
 import os
 
-CHANNEL = os.environ.get('CHANNEL', "ak_backup_72")
-STRING = os.environ.get("STRING", "")
-ADMIN = int(os.environ.get("ADMIN", "6062630523"))
-bot_username = os.environ.get("BOT_USERNAME","Rename_X_Thumbnail_Robot")
-log_channel = int(os.environ.get("LOG_CHANNEL", "-1001848374407"))
-token = os.environ.get('TOKEN', '6355149697:AAFJ6YfbbSSnFho40jot049KyM87OQo-V_4')
+CHANNEL = os.environ.get('CHANNEL', "The_Movies_Officially")
+STRING = os.environ.get("STRING", "BQFJfx0AdbB-zrKmh8DmfYoY88e9giXyavSHYecaBvi_xKxp-kOIUEqaY9q07l7t6yINDKHBkM3QBK3BgOe_RKCCAJsBbmTd4SHHU65y4nWXKRBJMquAFmBdhbLHfNox9mhOpbWfRETRTyriAiYCxpyC6LnanAl-MYFGzcmxRR2_9vNL0i4sVZmSVK1hEQzyIwO4qolLadvF0Rx9qXJ-dYngOlyYzphnGQT4b-EnaWTQ3m2mfdQCQ4kf4c-kyjCv24CnP5JKkGz9f64Q7kwhnBbjl5QNNsqxew_MvpstYS-t4M24qXHfdImrqI815oEMdv_6htTlt1zpggbc4Ad81uVLA4_ezQAAAABNuQNpAA")
+ADMIN = int(os.environ.get("ADMIN", "1303970665"))
+bot_username = os.environ.get("BOT_USERNAME","RJ_Rename_Bot")
+log_channel = int(os.environ.get("LOG_CHANNEL", "-1001804316650"))
+token = os.environ.get('TOKEN', '6770750219:AAHcDzgqEEp8eLj7nubmaGAwJC-qGjuV6oo')
 botid = token.split(':')[0]
 FLOOD = 500
 LAZY_PIC = os.environ.get("LAZY_PIC", "https://telegra.ph/file/d88cd339c17b823624046.jpg")
@@ -50,11 +50,11 @@ async def start(client, message):
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/ak_backup_72")],
-                                      [InlineKeyboardButton("🦋 Contact Me 🦋", url="https://t.me/Ak74400")],
-                                      [InlineKeyboardButton("Support Group", url='https://t.me/ak_bot_support'),
-                                      InlineKeyboardButton("Movie Channel", url='https://t.me/IPopkornMovies72')],
-                                      [InlineKeyboardButton("☕ Buy Me A Tea ☕", url='https://pay.upilink.in/pay/9653435576@paytm')]
+                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/The_Movies_Officially")],
+                                      [InlineKeyboardButton("🦋 Contact Me 🦋", url="https://t.me/ROHANKUMAR188")],
+                                      [InlineKeyboardButton("Support Group", url='https://t.me/The_MoviesRequest'),
+                                      InlineKeyboardButton("Movie Channel", url='https://t.me/The_Movies_Officially')],
+                                      [InlineKeyboardButton("☕ Buy Me A Tea ☕", url='https://pay.upilink.in/pay/6371434453@paytm')]
                                       ]))
         return
     if id:
@@ -64,11 +64,11 @@ async def start(client, message):
                 await message.reply_photo(photo=LAZY_PIC,
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/ak_backup_72")],
-                                              [InlineKeyboardButton("🦋 Contact Me 🦋", url="https://t.me/Ak74400")],
-                                              [InlineKeyboardButton("Support Group", url='https://t.me/ak_bot_support'),
-                                             InlineKeyboardButton("Movie Channel", url='https://t.me/IPopkornMovies72')],
-                                             [InlineKeyboardButton("☕ Buy Me A Tea ☕", url='https://pay.upilink.in/pay/9653435576@paytm')]
+                                             [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/The_Movies_Officially")],
+                                              [InlineKeyboardButton("🦋 Contact Me 🦋", url="https://t.me/ROHANKUMAR188")],
+                                              [InlineKeyboardButton("Support Group", url='https://t.me/The_MoviesRequest'),
+                                             InlineKeyboardButton("Movie Channel", url='https://t.me/The_Movies_Officially')],
+                                             [InlineKeyboardButton("☕ Buy Me A Tea ☕", url='https://pay.upilink.in/pay/6371434453@paytm')]
                                           ]))
             except:
                 return
@@ -84,11 +84,11 @@ async def start(client, message):
 	**Document Or Video** and enter new filename to rename it__
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/ak_backup_72")],
-                                          [InlineKeyboardButton("🦋 Contact Me 🦋", url="https://t.me/Ak74400")],
-                                          [InlineKeyboardButton("Support Group", url='https://t.me/ak_bot_support'),
-                                          InlineKeyboardButton("Movie Channel", url='https://t.me/IPopkornMovies72')],
-                                          [InlineKeyboardButton("☕ Buy Me A Tea ☕", url='https://pay.upilink.in/pay/9653435576@paytm')]
+                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/The_Movies_Officially")],
+                                          [InlineKeyboardButton("🦋 Contact Me 🦋", url="https://t.me/ROHANKUMAR188")],
+                                          [InlineKeyboardButton("Support Group", url='https://t.me/The_MoviesRequest'),
+                                          InlineKeyboardButton("Movie Channel", url='https://t.me/The_Movies_Officially')],
+                                          [InlineKeyboardButton("☕ Buy Me A Tea ☕", url='https://pay.upilink.in/pay/6371434453@paytm')]
                                           ]))
     
 
@@ -126,11 +126,11 @@ async def send_doc(client, message):
     except:
         await message.reply_text(text=f"Hello dear {message.from_user.first_name}  **we are currently working on this issue**\n\nPlease try to rename files from your another account.\nBecause this BOT can't rename file sent by some ids.\n\nIf you are an **ADMIN** Don't worry ! here we have a solution for you dear {message.from_user.first_name }.\n\nPlease use \n👉 `/addpremium your_other_userid` 👈 to use premium feautres\n\n",
                                   reply_markup=InlineKeyboardMarkup([
-                                                                     [InlineKeyboardButton("🦋 Contact Developer 🦋", url='https://t.me/Ak74400')],
-                                                                     [InlineKeyboardButton("🔺 Movies Group 🔺", url='https://t.me/IPopkornMovies72')],
-                                                                     [InlineKeyboardButton("🦋 Visit Channel 🦋", url='https://t.me/ak_backup_72'),
-                                                                     InlineKeyboardButton("🦋 Support Group 🦋", url='https://t.me/ak_bot_support')],
-                                                                     [InlineKeyboardButton("☕ Buy Me A Tea ☕", url='https://pay.upilink.in/pay/9653435576@paytm')]
+                                                                     [InlineKeyboardButton("🦋 Contact Developer 🦋", url='https://t.me/ROHANKUMAR188')],
+                                                                     [InlineKeyboardButton("🔺 Movies Group 🔺", url='https://t.me/The_MoviesRequest')],
+                                                                     [InlineKeyboardButton("🦋 Visit Channel 🦋", url='https://t.me/The_Movies_Officially'),
+                                                                     InlineKeyboardButton("🦋 Support Group 🦋", url='https://t.me/The_MoviesRequest')],
+                                                                     [InlineKeyboardButton("☕ Buy Me A Tea ☕", url='https://pay.upilink.in/pay/6371434453@paytm')]
                                                                     ]))
         await message.reply_text(text=f"🦋")
         return 
